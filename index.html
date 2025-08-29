@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Projects</title>
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif; /* Modern clean font */
+      /*font-family: Arial, sans-serif;*/
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /*background: linear-gradient(135deg, #89f7fe, #66a6ff);*/ /* gradient background */
+      background: linear-gradient(135deg, #6fcbe9 40%, #4e7edb 80%);
+      color: #222;
+    }
+    h1 {
+      margin: 40px 0 20px 0;
+      text-align: center;
+      /* color: #3DDC84;  Android Green */
+    }
+    .project {
+      display: flex;
+      flex-direction: column; /* stack icon + description */
+      align-items: center;
+      text-align: center;
+      margin: 5px 0;
+    }
+    .project img {
+      width: 150px;
+      height: 150px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      margin-bottom: 15px;
+    }
+    .project img:hover {
+      transform: scale(1.2);
+    }
+    .description h2 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    .description p {
+      margin-top: 10px;
+      font-size: 1em;
+      line-height: 1.5;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Android Mobile App Projects</h1>
+
+  <!-- Art Institute Project -->
+  <div class="project">
+    <a href="https://github.com/ttaluri/Art-Institute-Of-Chicago-Android-App" target="_blank">
+      <img src="https://img.icons8.com/color/96/museum.png" alt="Art Institute Icon">
+    </a>
+    <div class="description">
+      <h2>Art Institute Project</h2>
+      <p>
+        An Android Mobile app that allows users to view artwork (both images and details) from the collection of the Art Institute of Chicago. Retrieved using a public API. <br> (Click on icon to access Source code @ GitHub).
+      </p>
+    </div>
+  </div>
+
+  <!-- Weather Android App -->
+  <div class="project">
+    <a href="https://github.com/ttaluri/Visual-Crossing-Weather-App-Android" target="_blank">
+      <img src="https://img.icons8.com/color/96/partly-cloudy-day.png" alt="Weather App Icon">
+    </a>
+    <div class="description">
+      <h2>Weather Android App</h2>
+      <p>
+        An Android application that fetches live weather data using the Visual Crossing API, 
+        providing forecasts, hourly updates, and interactive charts with gradient background changed over temperature trends.<br>
+(Click on icon to access Source code @ GitHub)
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
